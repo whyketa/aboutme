@@ -1,0 +1,74 @@
+body { background: #d792db; /* Резервный цвет */ background: linear-gradient( #a561ac, #dfbbe0, #a561ac); }
+@font-face {  
+    font-family: "Soledago";  
+    src: url("/aboutme/Soledago.ttf") format("truetype");  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;  
+}
+@font-face {  
+    font-family: "GNF";  
+    src: url("/aboutme/GNF.ttf") format("truetype");  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;  
+}
+@font-face {  
+    font-family: "ChakraPetch-Regular";  
+    src: url("/aboutme/ChakraPetch-Regular.otf") format("opentype");  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;  
+}
+body {
+    font-family: "ChakraPetch-Regular", Helvetica, Arial, sans-serif;
+    color: #ffffff;      
+    font-size: 18px;
+
+    h1 {
+        font-family: "GNF", Helvetica, Arial, sans-serif;      
+        font-size: 20px; 
+    } 
+    h2 {
+    font-family: "Soledago", Helvetica, Arial, sans-serif;
+    color: #f4e2ff;      
+    font-size: 70px; 
+    margin: 0;
+    padding: 0;
+    }
+    h3 {
+    font-family: "GNF", sans-serif;
+    color: #ffffff;      
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    }
+    h4 {
+        font-family: "Soledago", Helvetica, Arial, sans-serif;
+        color: #f4e2ff;      
+        font-size: 20px; 
+        }
+}    
+a:link { color: #c6d8ea; } /* непосещённая ссылка */  
+a:visited { color: #f3f8fc; }  /*посещённая ссылка */  
+a:hover { color: #ffffff; } /* ссылка при наведении на неё мышкой */  
+
+.image-container {
+    display: flex;           
+    width: 100%;             
+    justify-content: space-between; 
+    align-items: center;    
+  }
+  
+  .image-container img {
+    max-width: 100%;        
+    height: auto;            
+    object-fit: contain;     
+  }
+.text {
+    margin: 0 65px;
+}  
+p{
+    margin: 0;
+    padding: 0;
+}
